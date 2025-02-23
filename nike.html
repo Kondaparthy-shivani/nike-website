@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .p2{
+        font-size: 30px;
+        color: brown;
+    }
+    .gradient,footer{
+        background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+</style>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-secondary shadow-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">NIKE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">New & Featured</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">men</a></li>
+                  <li><a class="dropdown-item" href="#">women</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">price</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">sale</a>
+              </li>
+            </ul>
+             <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+              <i class="fa-solid fa-bag-shopping p2"></i>
+            </form> 
+          </div>
+        </div>
+      </nav>
+
+      <!-- section-1 -->
+       <div class="container-fluid d-flex justify-content-center align-items-center flex-column flex-lg-row flex-md-column flex-sm-column my-3">
+        <div class="left">
+            <img src="shoe-1.png"  height="600px" alt="">
+        </div>
+        <div class="right ">
+            <h1 class="fw-bolder fs-1 text-danger">SUPER MAX SHOE</h1>
+            <h2 class="text-primary"><i class="fa-solid fa-person-running"></i> KEEP RUNNING...</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam nostrum optio deleniti cum harum culpa natus corporis obcaecati ducimus quibusdam, veritatis dolorum asperiores sed eligendi, minima consectetur nulla, hic placeat?</p>
+            <button class="btn btn-success"><i class="fa-solid fa-cart-shopping"></i> Buy now</button>
+        </div>
+       </div>
+
+       <!-- section-2 -->
+       <div class="container-fluid gradient d-flex justify-content-center align-items-center flex-column flex-lg-row flex-md-column flex-sm-column my-3">
+        <div class="left2">
+            <div class="box bg-light d-flex justify-content-start align-items-center p-2 rounded my-2">
+                <i class="fa-solid fa-house fs-1 mx-4 "></i>
+               <div> <h5>Find the Perfect Fit</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis,cupiditate</p></div>
+            </div>
+            <div class="box bg-light d-flex justify-content-start align-items-center p-2 rounded my-2">
+                <i class="fa-regular fa-credit-card fs-1 mx-4"></i>
+               <div> <h5>Easy & Secure Payment</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis,cupiditate</p></div>
+            </div>
+            <div class="box bg-light d-flex justify-content-start align-items-center p-2 rounded my-2">
+                <i class="fa-solid fa-right-left fs-1 mx-4"></i>
+               <div> <h5>Free Exchange</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis,cupiditate</p></div>
+            </div>
+            
+        </div>
+                    <div class="right2">
+                 <img src="girl-1.png" alt="">
+                    </div>
+       </div>
+
+     <!-- sectoin-3 -->
+      <div class="container my-3 flex-column"></div>
+
+      <!-- section-4 -->
+       <div class="container">
+        <h1 class="fw-bolder text-info border-start border-5 border-danger px-1">SHOE SIZE GUIDE</h1>
+        <table class="table  table-info table-striped border-dark text-center table-bordered p-2">
+          <tr>
+            <th>US</th>
+            <th>UK</th>
+            <th>EU</th>
+            <th>OU</th>
+            <th>IN</th>
+          </tr>
+        <tr>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>7</td>
+          <td>10</td>
+          
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>3</td>
+          <td>5</td>
+          <td>7</td>
+          <td>10</td>
+          
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>3</td>
+          <td>5</td>
+          <td>7</td>
+          <td>10</td>
+          
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>3</td>
+          <td>5</td>
+          <td>7</td>
+          <td>10</td>
+          
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>3</td>
+          <td>5</td>
+          <td>7</td>
+          <td>10</td>
+          
+        </tr>
+      </table>
+       </div>
+
+       <!-- section-5 -->
+        <div class="cotainer-fluid text-center my-3 ">
+          <u class="fw-bolder fs-1">OUR TEAM</u>
+         <div class="d-flex gap-3 justify-content-center align-items-center flex-column flex-lg-row flex-md-row flex-sm-column">
+          <div class="card" style="width: 18rem;">
+            <div class="bg-secondary"><img src="person.avif" class="card-img-top rounded-circle" alt="..."></div>
+            <div class="card-body">
+              <h5 class="card-title">Person-1</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="bg-secondary"><img src="person.avif" class="card-img-top rounded-circle" alt="..."></div>
+            <div class="card-body">
+              <h5 class="card-title">Person-2</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="bg-secondary"><img src="person.avif" class="card-img-top rounded-circle" alt="..."></div>
+            <div class="card-body">
+              <h5 class="card-title">Person-3</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+         </div>
+        </div>
+        <!-- section6 -->
+         <div class="container my-3 justify-content-center text-center bg-light border border-2 p-4  mt-4 shadow-sm rounded mb-4">
+        <h3>SUBSCRIBE TO OUR NEWS LETTER</h3> 
+        <div class=" input-group mb-3 mt-4">
+        <input type="text" class="form-control"
+        placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <span class="input-group-text bg-info"
+        id="basic-addon2">Subscribe</span>
+        </div>
+         </div>
+
+       <!-- section7 -->
+        <footer class="p-4 d-flex justify-content-center align-items-center">
+          <h2>@SNIST FSS&AA | ALL RIGHTS RESERVED</h2>
+        </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>   
+</body>
+</html>
